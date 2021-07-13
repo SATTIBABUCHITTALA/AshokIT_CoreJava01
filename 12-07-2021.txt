@@ -1,0 +1,88 @@
+Operators:-
+A+B
+Airthmetic Operators:----+,-,*,/,%
+Relational Operators:- <,<=>,>=
+unary operators----++,--
+Bitwise Operators----&,|
+
+== it is going to check
+
+-------------------------------
+
+Conditional Statements in Java
+----------------------------------
+
+if
+int i=10;
+if(i<10){
+
+
+
+}
+
+
+
+if-else
+SL,FIRST-CLASS,SECOND-TIER, 3 TIER
+if(){
+
+
+}
+
+
+
+
+continue
+break
+-----
+looping statetements
+-----------
+
+
+
+
+
+
+
+
+
+int i=5;
+int k=10;
+
+i<k 
+
+
+
+
+
+
+class Student{
+
+class memebers
+methods/functions
+
+
+}
+
+OOPS:-
+
+---
+
+//for loop
+
+for(initialization;condition;increment/decrement){
+
+
+}
+for(int i=0;i<5;i++){
+
+}
+
+
+Constructor:-
+
+
+
+
+
+

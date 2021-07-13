@@ -1,0 +1,161 @@
+8-07-2021
+
+
+
+
+JAVA SE--- JAVA Standard Edition
+JAVA EE----Enterprise Edition
+JAVA ME-- Mobile Edition/ Micro Edition
+
+
+Desktop Applications
+
+Web Applications--gmail,irctc
+client-Server Architecture
+
+Distributed Applciations:- 
+One Application is communicating with another application. 
+
+OOP Language
+
+variables
+
+class
+object
+interface
+constructor
+method
+final varaible
+
+
+naming conventions:- 
+
+Prerequisites:- 
+
+JVM, JRE, JDK 1.8
+
+IDE:- Eclipse 2020
+
+public class Student{
+
+int stdId;
+String stdName;
+
+}
+Student.java
+
+javac Student.java ---JVM comes into picture 
+
+Student.class ---bytecode
+
+java Student
+
+
+----------------------------------------------
+Naming Convention
+--------------------------------------------
+
+class --- Noun--- abc, std, efg,
+ 
+Student
+Employee
+Library
+College
+AttendanceDetails 
+
+class StudentDetails{
+
+
+}
+EmployeeDetails
+employeedetails
+Employeedetails
+EmployeeDetails
+
+studentDetails
+
+
+studentDetails
+
+method
+
+getEmpDetails();
+
+Constructor
+
+class Student{
+
+Student(){
+
+}
+
+
+}
+-----
+Interface 
+--------
+
+StudentService 
+
+variable name:- 
+int studentId;
+
+int a;
+
+Final Variable:- 
+ final int name="Sattibabu"
+
+name="Sunil";
+----------------------------------------------------------------------------------
+
+OOPS Concepts:-
+
+Class
+Object
+Interface
+Abstraction
+Polymorphism
+Inheritance
+Encapsulation
+methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

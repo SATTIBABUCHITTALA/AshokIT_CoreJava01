@@ -1,0 +1,227 @@
+JAVA 
+
+Applications---
+
+Desktop Applications
+Web Applications---Client/Server
+Distributed Applications---One Application is going to talk to another Applications 
+
+
+Programming Languages
+
+Applications
+
+C,C++,Java,Python
+
+
+Core Java
+
+JVM,JRE, JDK 
+
+Installation
+
+jdk 1.8,
+IDE--Eclipse
+
+
+Secured,
+
+Many Versions in java
+
+
+java 1.0
+
+java 1.2
+
+
+java 1.3
+
+
+java 1.5
+
+java 1.8
+
+
+java 15
+
+java 16
+
+java 17
+
+------------------------------------------------------------------------------------------------------------------------
+
+What is an Application?
+
+programming
+
+
+classes
+
+
+class Student{
+
+int studentId;
+String stdName;
+String emailId;
+
+
+}
+
+JDK----JAVA DEVELOPMENT KIT
+
+
+JVM--- JAVA VIRTUAL MACHINE
+
+JRE--JAVA RUNTIME ENVIRONMENT
+
+WRITE ONCE AND RUN ANYWHERE
+
+
+Variables:-
+
+int studentId;
+
+
+String studentName;
+
+------
+Data Types in java --
+-------------------
+char ---2 byte
+byte--- 1 byte
+short --1 byte
+int ---4  bytes
+float --- 4 bytes
+double ---8 bytes
+long ---8 bytes
+boolean 
+
+
+Data Types in Java
+
+Two types of Datatypes in java
+Primitive
+Non-Primitive ---String,Array
+
+String name;
+
+
+char n='s';
+String name="Satti Babu";
+byte num=-127, +127
+byte num=101;
+
+
+
+byte num=137;
+int num=3586484648;
+float f=35.04f;
+
+double d=35.04;
+long l=35.04l;
+
+boolean=true/false;
+
+
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
