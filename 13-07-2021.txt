@@ -1,0 +1,115 @@
+if()
+
+for(initialization;conditon;increment/decrement){
+
+
+
+}
+
+
+for(int i=0;i<10;i++){
+
+
+}
+
+while ---loop
+
+int i=0;
+looping statements
+
+while(i<10){
+
+
+}
+
+do while
+do{
+
+
+}while(condition);
+
+break;
+continue;
+
+switch-case
+switch(condition){
+case:
+
+
+default:
+
+
+}
+///method creation
+Method/function:- Method is going to do some operations and provide the result back.
+
+int addition(int a,int b){
+
+return a+b;
+
+}
+
+class is a blueprint which consists of members and memberfunctions
+
+object:- An object is an instance which is used to access the 
+members and member functions of that class
+
+Student student =new Student();
+
+student.getStudentDetails();
+package com.corejava01;
+
+class Conditional{
+	
+	void operations(String className) {
+		
+		className=className.toUpperCase();
+		
+		
+		switch(className) {
+		
+		case "SL":System.out.println("Amount "+500);
+					break;
+		
+		case "3T": System.out.println("Amount "+1500);
+					break;
+		
+		case "2T": System.out.println("Amount "+2000);
+					break;
+			
+		case "1T" : System.out.println("Amount "+3500);
+					break;
+			
+		default: System.out.println("Please select any Class");
+		
+		
+		}
+		
+	}
+	
+}
+
+public class ConditionalStatementsDemo {
+
+	public static void main(String args[]) {
+		
+		
+		Conditional condition=new Conditional();
+		condition.operations("3T");
+		
+		
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
