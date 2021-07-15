@@ -1,0 +1,153 @@
+method
+
+creating an object:-
+
+1. new keyword
+2. Instance
+3. clone method
+4. Deserialization
+5. newInstance() method
+
+classname objectname=new classname();
+
+class Student{
+void getStudentDetails(){
+
+}
+int stdId;
+String studentName;
+
+}
+Student std=new Student();
+std.getStudentDetails();
+
+Class.forName("className");
+
+class r=b.newInstance();
+---------------------------------------------
+Constructor:-
+---------------------------------------
+Constructor is a similar type of method to
+ allocate the memory of the class variables and functions. Every class consists of a Constuctor
+either user will create or jvm will create automatically.
+
+
+class Employee{
+
+String empId;
+String empName;
+String emailId;
+
+
+double getEmpSalary(String empId){
+
+
+
+}
+public Employee(){
+
+
+}
+
+
+}
+There are two types of Constructors in Java:-
+1. Default Constructor
+2. Parameterized Constructor
+
+public Employee(){
+
+
+}
+public Employee(String ceoName){
+
+
+}
+
+public Employee(String ceoName, String empId){
+
+}
+Constructor Overloading:- If we declare Same method 
+with Different Parameters in same class.
+package com.corejava01;
+
+
+class Employee{
+	
+	String empId;
+	String empName;
+	double empSalary;
+	String ceoName;
+	String empEmailId;
+	
+	void getEmpSalary(String empId) {
+		
+		
+		if(empId.equals("754066")) {
+			System.out.println("Salary of emp is "+empSalary);
+		}else {
+			System.out.println("Please provide Correct Empoloyee Id!!!!");
+			
+		}
+		
+		
+	}
+	public Employee() {
+		
+	}
+	
+	public Employee(String name) {
+		
+		ceoName=name;
+		
+	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + ", ceoName=" + ceoName
+				+ ", empEmailId=" + empEmailId + "]";
+	}
+}
+
+
+public class ConstructorDemo {
+	
+	public static void main(String args[]) {
+		
+		Employee emp=new Employee("Nandan G");
+		emp.empId="754066";
+		emp.empName="Satti babu";
+		emp.empSalary=80000;
+		emp.empEmailId="satti@123";
+		//emp.ceoName="Nandan G";
+		System.out.println("Empoloyee Details");
+		System.out.println(emp);
+		
+		//hashcode
+		//emp is a reference variable
+		//object
+		
+		//emp.getEmpSalary(emp.empId);
+		Employee emp1=new Employee("Nandan G");
+		emp1.empId="897654";
+		emp1.empName="Madhav";
+		emp1.empSalary=90000;
+		emp1.empEmailId="Madhav@123";
+		//emp1.ceoName="Nandan G";
+		System.out.println("Empoloyee Details");
+		System.out.println(emp1);
+		//in my 500 employees 
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
