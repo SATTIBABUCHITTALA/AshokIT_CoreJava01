@@ -1,0 +1,86 @@
+Multiple Ways to Create an Object in Java
+1. New keyword
+2. New Instance
+3. clone
+4. Deserialization
+5. NewInstance() method
+
+
+
+Student student =new Student();
+
+student ---reference Variable
+new Student() ---is an instance
+
+class Student{
+
+
+}
+1. Student std=new Student();
+2. Class.forName("Student");
+3. Student std=new Student();
+	std.name="Satti Babu";
+	std.id="101rfr";
+
+Student std1=std;
+ Student std1=std.clone();
+std1.name="Satti babu";
+The changes will not be reflected on the new cloned object by using clone() method. 
+package com.corejava01;
+
+class EmployeeDetails implements Cloneable{
+	String empId;
+	
+	String empName;
+	String empEmailId;
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	@Override
+	public String toString() {
+		return "EmployeeDetails [empId=" + empId + ", empName=" + empName + ", empEmailId=" + empEmailId + "]";
+	}
+}
+public class ObjectCreation {
+
+	public static void main(String args[]) throws CloneNotSupportedException {
+		
+		EmployeeDetails emp=new EmployeeDetails();
+		
+		emp.empId="101F";
+		emp.empName="SatyaNarayana";
+		emp.empEmailId="Satya@123";
+		
+		System.out.println("Employee OBject1"+ emp);
+		
+		EmployeeDetails emp1=emp;
+		
+		//emp.empName="Satya";
+		
+		System.out.println("Employee OBject1 after changes"+ emp);
+		 
+		System.out.println("Employee Object 2"+ emp1);
+		
+		
+		
+		
+	}
+	
+	
+}
+
+
+Studetn std2=new Student();
+
+
+Object c=Class.forName("Student");
+
+Student std=(Student)c.newInstance();
+
+
+
+
+1. class.forName("Student
+
